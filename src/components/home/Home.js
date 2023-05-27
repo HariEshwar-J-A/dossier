@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setDarkTheme, setLightTheme } from "../../reducers/uiReducer";
+import { setLightTheme } from "../../reducers/uiReducer";
 import Body from "../body/Body";
 import Footer from "../footer/Footer";
 import Header from "../header/Header";
