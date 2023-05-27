@@ -1,0 +1,13 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .workList {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 24px 0px;
+    }
+}

@@ -1,0 +1,23 @@
+.socialContact {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    a {
+        cursor: pointer;
+        margin: 6px;
+        padding: 6px;
+    }
+
+    img {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .socialContact {
+        img {
+            width: 32px;
+        }
+    }
+}

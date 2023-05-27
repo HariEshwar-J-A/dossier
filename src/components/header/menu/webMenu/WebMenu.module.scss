@@ -1,0 +1,38 @@
+.menu {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+
+  .webOption {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 16px;
+
+    a {
+      align-items: center;
+      color: #000;
+      display: flex;
+      text-decoration: none;
+    }
+
+    .optionIcon {
+      align-items: center;
+      display: flex;
+      margin-right: 4px;
+    }
+  }
+
+  .webOption:last-child {
+    margin-right: 0px;
+  }
+}
+
+.darkMenu {
+  .webOption {
+    font-weight: 400;
+    a {
+      color: #eee;
+    }
+  }
+}

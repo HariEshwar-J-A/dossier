@@ -1,0 +1,56 @@
+.header {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+}
+
+.menu {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.darkMenu {
+  background-color: #333;
+}
+
+.menuIcon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.darkMenuIcon {
+  color: #eee;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.webMenu {
+  display: flex;
+}
+
+.logo {
+  color: blueviolet;
+  display: flex;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+  .mobileMenu {
+    display: flex;
+  }
+
+  .webMenu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+}

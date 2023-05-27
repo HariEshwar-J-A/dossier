@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  // padding: 0 2%;
+  // width: 100%;
+}
+
+.home.dark {
+  background-color: #333;
+  color: #eee;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    width: 96%;
+    // padding: 0 2%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .home {
+    width: 100%;
+  }
+}
