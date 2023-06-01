@@ -10,7 +10,7 @@ const WebMenu = () => {
       className={styles.menu + (theme === "dark" ? " " + styles.darkMenu : "")}
     >
       <div className={styles.webOption}>
-        <a href="#project">
+        <a href="#projects">
           <i className={"fi-rr-edit-alt " + styles.optionIcon}></i>
           Projects
         </a>

@@ -16,14 +16,14 @@ const Contact = () => {
                     </p>
                     <SocialContact />
                 </div>
-                <div className={styles.contactRight}>
+                {/* <div className={styles.contactRight}>
                     <a
                         href={resumeFileRef}
                         download={"Harieshwar J A - Resume.pdf"}>
                         <i className='fi-rr-cloud-download download-icon' />
                         Download Resume
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );

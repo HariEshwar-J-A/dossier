@@ -17,7 +17,7 @@ const MobileMenu = ({ toggleMenuOpen }) => {
       </div>
       <div className={styles.mobileOptions}>
         <div className={styles.mobileOption}>
-          <a href="#project" onClick={toggleMenuOpen}>
+          <a href="#projects" onClick={toggleMenuOpen}>
             <i className={"fi-rr-edit-alt " + styles.optionIcon}></i>
             Projects
           </a>
