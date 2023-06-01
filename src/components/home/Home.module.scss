@@ -3,11 +3,12 @@ html {
 }
 
 .home {
-  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  // padding: 0 2%;
-  // width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .home.dark {
@@ -18,7 +19,6 @@ html {
 @media only screen and (max-width: 1024px) {
   .home {
     width: 96%;
-    // padding: 0 2%;
   }
 }
 
