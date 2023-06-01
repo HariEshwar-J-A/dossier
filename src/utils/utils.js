@@ -3,14 +3,14 @@ export const updatePageRoute = (route) => {
     // window.history.pushState({}, undefined, `/#${route}`);
 }
 
-export const isElementInView = (elementId) => 
-{
-    var docViewTop = window.scrollY;
-    // var docViewTop = window.scrollX;
-    // var docViewBottom = docViewTop + $(window).height();
+// export const isElementInView = (elementId) => 
+// {
+//     var docViewTop = window.scrollY;
+//     var docViewTop = window.scrollX;
+//     var docViewBottom = docViewTop + $(window).height();
 
-    // var elemTop = $(elem).offset().top;
-    // var elemBottom = elemTop + $(elem).height();
+//     var elemTop = $(elem).offset().top;
+//     var elemBottom = elemTop + $(elem).height();
 
-    // return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}
+//     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+// }

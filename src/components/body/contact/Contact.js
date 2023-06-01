@@ -4,7 +4,7 @@ import SocialContact from "../../common/socialContact/SocialContact";
 import styles from "./Contact.module.scss";
 
 const Contact = () => {
-    const resumeFileRef = require("../../../assets/files/Harieshwar J A - Resume.pdf");
+    // const resumeFileRef = require("../../../assets/files/Harieshwar J A - Resume.pdf");
     return (
         <div className={styles.contact}>
             <Separator />
