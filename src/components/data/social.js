@@ -16,7 +16,7 @@ export const SocialData = [
     },
     {
         platform: "LinkedIn",
-        link: "https://www.linkedin.com/in/harieshwar-j-a-325961171/",
+        link: "https://www.linkedin.com/in/harieshwar-jagan-abirami-325961171/",
         icon: require("../../assets/icons/linkedin.svg").default,
     },
     {
