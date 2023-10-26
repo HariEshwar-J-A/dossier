@@ -1,9 +1,33 @@
 html {
   scroll-behavior: smooth;
+  
+  // Scroll Bar Styles
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #333;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777;
+  }
+}
+
+body {
+  background: #777;
+  filter: blur(0.5);
 }
 
 .home {
   align-items: center;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;

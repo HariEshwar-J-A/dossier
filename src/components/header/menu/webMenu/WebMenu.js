@@ -2,6 +2,9 @@ import React from "react";
 import { useSelector } from "react-redux";
 import styles from "./WebMenu.module.scss";
 
+// Function Imports
+import { onSectionMenuClick } from "../../../../utils/utils";
+
 const WebMenu = () => {
   const theme = useSelector((state) => state.ui.theme);
 
@@ -9,29 +12,17 @@ const WebMenu = () => {
     <div
       className={styles.menu + (theme === "dark" ? " " + styles.darkMenu : "")}
     >
-      <div className={styles.webOption}>
-        <a href="#projects">
-          <i className={"fi-rr-edit-alt " + styles.optionIcon}></i>
-          Projects
-        </a>
+      <div onClick={onSectionMenuClick} className={styles.webOption}>
+        <i className={"fi-rr-edit-alt " + styles.optionIcon}>Projects</i>
       </div>
-      <div className={styles.webOption}>
-        <a href="#skills">
-          <i className={"fi-rr-laptop " + styles.optionIcon}></i>
-          Skills
-        </a>
+      <div onClick={onSectionMenuClick} className={styles.webOption}>
+        <i className={"fi-rr-laptop " + styles.optionIcon}>Skills</i>
       </div>
-      <div className={styles.webOption}>
-        <a href="#work">
-          <i className={"fi-rr-briefcase " + styles.optionIcon}></i>
-          Work
-        </a>
+      <div onClick={onSectionMenuClick} className={styles.webOption}>
+        <i className={"fi-rr-briefcase " + styles.optionIcon}>Work</i>
       </div>
-      <div className={styles.webOption}>
-        <a href="#contact">
-          <i className={"fi-rr-user " + styles.optionIcon}></i>
-          Contact
-        </a>
+      <div onClick={onSectionMenuClick} className={styles.webOption}>
+        <i className={"fi-rr-user " + styles.optionIcon}>Contact</i>
       </div>
     </div>
   );
