@@ -6,6 +6,7 @@ import Body from "../body/Body";
 import Footer from "../footer/Footer";
 import Header from "../header/Header";
 import styles from "./Home.module.scss";
+import TopNavigator from "../topNavigator/TopNavigator";
 
 const Home = () => {
   const theme = useSelector((state) => state.ui.theme);
@@ -19,6 +20,7 @@ const Home = () => {
       <Header />
       <Body />
       <Footer />
+      <TopNavigator />
     </div>
   );
 };
