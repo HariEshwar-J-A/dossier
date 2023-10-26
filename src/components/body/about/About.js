@@ -1,6 +1,6 @@
-import React from "react";
-import SocialContact from "../../common/socialContact/SocialContact";
-import styles from "./About.module.scss";
+import React from 'react'
+import SocialContact from '../../common/socialContact/SocialContact'
+import styles from './About.module.scss'
 
 const About = () => {
   return (
@@ -14,8 +14,8 @@ const About = () => {
         </div>
         <div className={styles.aboutPhoto}>
           <img
-            src={require("../../../assets/Programmer-bro.svg").default}
-            alt="Harieshwar J A"
+            src={require('../../../assets/Programmer-bro.svg').default}
+            alt='Harieshwar J A'
           ></img>
         </div>
       </div>
@@ -23,7 +23,7 @@ const About = () => {
         <SocialContact />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
