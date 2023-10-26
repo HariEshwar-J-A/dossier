@@ -21,6 +21,11 @@
       display: flex;
       margin-right: 4px;
     }
+
+    i::before {
+        margin-left: 10px;
+        width: 24px;
+      }
   }
 
   .webOption:last-child {
@@ -31,8 +36,11 @@
 .darkMenu {
   .webOption {
     font-weight: 400;
-    a {
-      color: #eee;
-    }
+    color: #eee;
   }
+}
+
+i {
+  font-style: normal;
+  display: flex;
 }
