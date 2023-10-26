@@ -1,16 +1,8 @@
-export const updatePageRoute = (route) => {
-    document.getElementById(route).scrollIntoView({behavior: 'smooth'});
-    // window.history.pushState({}, undefined, `/#${route}`);
-}
-
-// export const isElementInView = (elementId) => 
-// {
-//     var docViewTop = window.scrollY;
-//     var docViewTop = window.scrollX;
-//     var docViewBottom = docViewTop + $(window).height();
-
-//     var elemTop = $(elem).offset().top;
-//     var elemBottom = elemTop + $(elem).height();
-
-//     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-// }
+/**
+   * @description A function to navigate to corresponding section based on menu click.
+   * @param {Event} e
+   */
+export const onSectionMenuClick = (e) => {
+    document.querySelectorAll(`#${e.target.innerText.toLowerCase()}`)[0].scrollIntoView({behavior: 'smooth'});
+  }
+  

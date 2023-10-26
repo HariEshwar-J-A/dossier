@@ -2,16 +2,11 @@ import React from "react";
 import { useSelector } from "react-redux";
 import styles from "./WebMenu.module.scss";
 
+// Function Imports
+import { onSectionMenuClick } from "../../../../utils/utils";
+
 const WebMenu = () => {
   const theme = useSelector((state) => state.ui.theme);
-
-  /**
-   * @description A function to navigate to corresponding section based on menu click.
-   * @param {Event} e
-   */
-  const onSectionMenuClick = (e) => {
-    document.querySelectorAll(`#${e.target.innerText.toLowerCase()}`)[0].scrollIntoView()
-  }
 
   return (
     <div
