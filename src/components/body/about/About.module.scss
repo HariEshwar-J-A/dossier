@@ -5,10 +5,17 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-right: 12px;
   }
 
   .aboutPhoto {
     width: 480px;
+
+    img {
+      width: 480px;
+      border-radius: 48px;
+      padding: 12px;
+    }
   }
 
   .aboutInfo {
