@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className={styles.aboutPhoto}>
           <img
-            src={require('../../../assets/Programmer-bro.svg').default}
+            src={require('../../../assets/Harieshwar J A.svg').default}
             alt='Harieshwar J A'
           ></img>
         </div>
