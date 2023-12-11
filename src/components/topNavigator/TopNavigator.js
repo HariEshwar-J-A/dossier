@@ -4,7 +4,7 @@ import styles from './TopNavigator.module.scss'
 
 const TopNavigator = () => {
   const onTopNavigatorClick = () => {
-    document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })
+    document.querySelector('body').scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
