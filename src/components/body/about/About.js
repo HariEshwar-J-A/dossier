@@ -1,8 +1,30 @@
-import React from 'react'
-import SocialContact from '../../common/socialContact/SocialContact'
-import styles from './About.module.scss'
+import React from "react";
+import { useSelector } from "react-redux";
+import SocialContact from "../../common/socialContact/SocialContact";
+import styles from "./About.module.scss";
+
+const LinkedInBadge = ({theme}) => {
+  return (
+    <div
+      className="badge-base LI-profile-badge"
+      data-locale="en_US"
+      data-size="small"
+      data-theme={theme === "dark" ? "dark" : "light"}
+      data-type="HORIZONTAL"
+      data-vanity="harieshwar-ja"
+      data-version="v1"
+    >
+      <a
+        className="badge-base__link LI-simple-link"
+        href="https://ca.linkedin.com/in/harieshwar-ja?trk=profile-badge"
+      > </a>
+    </div>
+  );
+};
 
 const About = () => {
+  const theme = useSelector((state) => state.ui.theme);
+
   return (
     <div className={styles.about}>
       <div className={styles.aboutTop}>
@@ -13,17 +35,14 @@ const About = () => {
           <br />I love experimenting with the web.
         </div>
         <div className={styles.aboutPhoto}>
-          <img
-            src={require('../../../assets/Harieshwar J A.svg').default}
-            alt='Harieshwar J A'
-          ></img>
+          <LinkedInBadge theme={theme} />
         </div>
       </div>
       <div className={styles.aboutBottom}>
         <SocialContact />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
