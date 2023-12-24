@@ -10,7 +10,6 @@ import TopNavigator from "../topNavigator/TopNavigator";
 
 const Home = () => {
   const theme = useSelector((state) => state.ui.theme);
-  console.log(theme);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(setDarkTheme());

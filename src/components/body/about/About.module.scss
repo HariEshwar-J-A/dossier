@@ -1,21 +1,23 @@
 .about {
   padding-bottom: 48px;
-
+  
   .aboutTop {
     align-items: center;
     display: flex;
+    height: 480px;
     justify-content: space-between;
     margin-right: 12px;
   }
 
   .aboutPhoto {
-    width: 480px;
+    padding: 12px;
+    // width: 480px;
 
-    img {
-      width: 480px;
-      border-radius: 48px;
-      padding: 12px;
-    }
+    // img {
+    //   width: 480px;
+    //   border-radius: 48px;
+    //   padding: 12px;
+    // }
   }
 
   .aboutInfo {
@@ -28,24 +30,26 @@
       margin-bottom: 12px;
     }
   }
+
+  .aboutBottom {
+    margin-top: 24px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
-  .aboutTop {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
+  .about {
+    .aboutTop {
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-  .aboutPhoto {
-    width: 280px;
-  }
+    .aboutInfo {
+      font-size: 20px;
 
-  .aboutInfo {
-    font-size: 20px;
-
-    .name {
-      font-size: 26px;
+      .name {
+        font-size: 26px;
+      }
     }
   }
 }
