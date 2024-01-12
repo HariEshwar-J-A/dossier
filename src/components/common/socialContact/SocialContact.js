@@ -8,7 +8,7 @@ const SocialContact = () => {
   return (
     <div className={styles.socialContact}>
       {SocialData.map((item, index) => (
-        <a key={index} href={item.link}>
+        <a key={index} href={item.link} target="_blank" rel="noreferrer">
           <img src={item.icon} alt={item.platform}></img>
         </a>
       ))}

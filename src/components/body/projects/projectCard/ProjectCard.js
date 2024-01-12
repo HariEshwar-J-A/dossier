@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
         <label className={styles.projectTitle}>{project.title}</label>
         <div className={styles.projectLinks}>
           {project.demo && (
-            <a href={project.demo}>
+            <a href={project.demo} target="_blank" rel="noreferrer">
               <div className={styles.linkButton}>
                 <i className="fi-rr-globe"></i>
                 Demo
@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
             </a>
           )}
           {project.repository && (
-            <a href={project.repository}>
+            <a href={project.repository}  target="_blank" rel="noreferrer">
               <div className={styles.linkButton}>
                 <i className="devicon-github-original coloured"></i>
                 Repo
