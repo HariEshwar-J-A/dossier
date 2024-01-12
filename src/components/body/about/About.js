@@ -3,7 +3,9 @@ import { useSelector } from "react-redux";
 import SocialContact from "../../common/socialContact/SocialContact";
 import styles from "./About.module.scss";
 
-const LinkedInBadge = ({theme}) => {
+const LinkedInBadge = () => {
+  const theme = useSelector((state) => state.ui.theme);
+
   return (
     <div
       className="badge-base LI-profile-badge"
@@ -17,7 +19,9 @@ const LinkedInBadge = ({theme}) => {
       <a
         className="badge-base__link LI-simple-link"
         href="https://ca.linkedin.com/in/harieshwar-ja?trk=profile-badge"
-      > </a>
+      >
+        {" "}
+      </a>
     </div>
   );
 };
