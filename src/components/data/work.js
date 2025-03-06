@@ -1,87 +1,142 @@
 export const WorkData = [
   {
-    company: "Soliton Technologies",
-    designation: "Senior Project Engineer",
-    startDate: "June-2022",
-    endDate: "July-2023",
-    logo: require("../../assets/images/logo-soliton.svg").default,
-    companyLogo:
-      "https://1414g3edy9az5.cdn.shift8web.com/wp-content/uploads/2023/01/Soliton-Logo.png",
+    company: "Freelance",
+    designation: "Freelance React Developer – Part Time",
+    startDate: "Aug-2023",
+    endDate: "Present",
+    logo: require("../../assets/images/logo-freelance.svg").default,
+    companyLogo: "https://yourdomain.com/path-to-freelance-logo.png",
     description: {
-      general: "Owned short-term and long-term projects driving them end-to-end, mentorship of more than 4 engineers and bringing technical innovations to the projects.",
+      general:
+        "Delivered optimized web solutions and innovative features as an independent contractor.",
       learningsOrAchievements: [
-        "Architected IoT edge modules using OPC UA and MQTT protocols for an industrial IoT – cloud agnostic monitoring and control software with complex features like microservices architecture, which was greatly appreciated by customers for 100% coverage of the proposed solution.",
-        "Developed and owned an Agile cinema robotics software development project that involved end-to-end delivery using React JS, Node JS, LabVIEW, C++, Math, and Python technologies, exceeded all expectations of the customer, and signed long-term engagements worth more than 100k USD.",
-        "Collaborated with UI/UX designers, developers, and stakeholders for development of Human Machine Interface (HMI) for a knife sharpening system on end-user perspective, and multi-lingual dashboards, in turn resulted in high stakeholders’ satisfaction and contract extensions of 1 year.",
-        "Standardized usage of React JS within the organization by utilizing the developer’s community aligned with the expectations from each team, and drafted the documentation, which resulted in 35% improvement of efficiency and about 15% reduction in delivery time.",
-        "Created an internal software for resource and asset management using technologies such as React JS, AJAX, Node JS, PostgreSQL, Gitlab/Bit Bucket, SVG/XML, etc., with cross-browser compatibility, for a shark-tank project contest - securing the second place within organization and got funding for further development.",
-        "Counselled 10 college students for career preparedness, as part of Corporate Social Responsibility, using training materials drafted from scratch and guided/trained with a team of 4, and achieved 100% student placement and 100% student/stakeholders’ satisfaction on our initiative.",
-        "Drafted checklist for raising pull request in full stack web development within the organization by standardizing conventional commits and hosting Knowledge Sharing Sessions (KSS), which helped every team to improve estimation and in-turn productivity.",
-        "Engaged in external meetings and product discussions to gain more knowledge about the products and services offered by customers, thus fostering a win-win-win mindset by leveraging that knowledge to create value and converted one-year contracts into long-term engagements",
-        "Notable Awards: Two times winner of “Star Soliton” award - one of the highest recognitions for the hard work and value addition to the organization.",
-      ]
+        "Optimized complex data visualizations, reducing render times by 35% and enhancing responsiveness.",
+        "Built an AI-powered chatbot using the OpenAI API and Next.js, boosting customer engagement by 30%.",
+        "Deployed and maintained scalable, cloud-hosted applications with 99.9% uptime.",
+      ],
+    },
+  },
+  {
+    company: "SOTI Inc.",
+    designation: "DevOps Engineer Coop – Full Time",
+    startDate: "May-2024",
+    endDate: "Dec-2024",
+    logo: require("../../assets/images/logo-soti.svg").default,
+    companyLogo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/SOTI_logo.svg/1200px-SOTI_logo.svg.png",
+    description: {
+      general:
+        "Engineered robust CI/CD pipelines and enhanced testing frameworks to streamline deployments.",
+      learningsOrAchievements: [
+        "Developed end-to-end CI/CD pipelines in Jenkins using Groovy scripting, reducing deployment times by 30%.",
+        "Automated PowerShell-based reindexing scripts for JFrog Xray vulnerability scans, reducing manual effort by 40%.",
+        "Improved BDD testing frameworks by resolving Angular.js & .NET UI issues, increasing usability and system efficiency.",
+      ],
     },
   },
   {
     company: "Soliton Technologies",
-    designation: "Project Engineer",
-    startDate: "August-2020",
-    endDate: "June-2022",
+    designation: "Technical Project Engineer – Full Time",
+    startDate: "Jun-2022",
+    endDate: "Jul-2023",
     logo: require("../../assets/images/logo-soliton.svg").default,
     companyLogo:
       "https://1414g3edy9az5.cdn.shift8web.com/wp-content/uploads/2023/01/Soliton-Logo.png",
     description: {
-      general: "Learnt/Experienced full stack web development, initiating team (or) organization wide technical discussions, mentorship of junior engineers/interns, and adding value to projects/teams/organization with the motive to become a technical senior developer. ",
+      general:
+        "Led complex projects while partnering with NI to deliver innovative solutions in cinema robotics and industrial IoT.",
       learningsOrAchievements: [
-        "Pioneered a semiconductor validation software employing React JS, Node JS (loaders, middleware), Python, MySQL, and Electron, incorporating a data-driven architecture with widgets/graphical UI components and multi-scale sampling algorithm, to validate semiconductor devices, resulting in low-cost-accelerated GUI development, and added multiple new product-license purchase within a year.",
-        "Mentored and owned a machine learning project involving managing a team of 3 to develop an anomaly detection module for waveform analysis of semiconductor validation data, which resulted in creating new ML modules with comparative reduction in loss function of up to 35% and induced success of the waveform analysis software.",
-        "Initiated and implemented unit testing using Jest and React Testing Library in a React JS frontend project to address preexisting quality issues, resulting in 100% test coverage, 30% improved application quality, enhanced team communication on acceptable software standards.",
-        "Pioneered and tailored Scrum events for a cinema-robotics software project, driving meetings and customer interactions to ensure organization-wide Agile Scrum implementation, resulting in 30% higher completion of story points/tasks, and facilitating a deeper understanding and adoption of Agile Scrum across multiple projects.",
-        "Created an industrial IoT edge module using Python FastAPI and deployed it using Docker for data transfer between edge computers using OPC UA and Azure cloud databases/ dashboards, which enabled 40% of the engineers to monitor and control devices from remote location.",
-        "Researched and developed an industrial internet of things proof of concept, using NI sensor device drivers to extract high-volume stream data using Python, exhibiting willingness to learn, documented the process, and thereby bolstered 100% confidence in securing industrial IoT projects for the organization.",
-        "Initiated counselling, guiding, and training of college students for career preparedness, to be added as part of Corporate Social Responsibility, with the stakeholders of the organization – which was a huge success and with the budget approved, worked on creating necessary materials to get started with 10 college students.",
-        "Coordinated festive companywide events like Christmas, creating an enjoyable and immensely successful atmosphere that promoted transparent connections across the organization, fostering increased understanding of every team and team member."
-      ]
-    }
+        "Architected IoT edge modules using OPC UA and MQTT protocols for an industrial IoT – cloud agnostic monitoring and control system featuring microservices architecture.",
+        "Developed and owned an Agile cinema robotics software project using React JS, Node JS, LabVIEW, C++, Math, and Python technologies; secured long-term engagements worth over 100k USD.",
+        "Collaborated with UI/UX designers, developers, and stakeholders to develop a Human Machine Interface (HMI) for a knife sharpening system and multi-lingual dashboards, resulting in high stakeholder satisfaction and a 1-year contract extension.",
+        "Standardized React JS usage within the organization by leveraging the developer community and drafting comprehensive documentation, which improved efficiency by 35% and reduced delivery time by 15%.",
+        "Created an internal resource and asset management software using React JS, AJAX, Node JS, PostgreSQL, and SVG/XML, winning second place in a shark-tank contest and securing further funding.",
+        "Counseled 10 college students for career preparedness as part of a Corporate Social Responsibility initiative, achieving 100% student placement and satisfaction.",
+        "Drafted a pull request checklist by standardizing conventional commits and hosting Knowledge Sharing Sessions (KSS), enhancing estimation accuracy and productivity.",
+        "Engaged in external product discussions to deepen customer insights, converting one-year contracts into long-term engagements.",
+        "Received two ‘Star Soliton’ awards, recognizing exceptional hard work and significant value addition.",
+      ],
+    },
+  },
+  {
+    company: "Soliton Technologies",
+    designation: "Project Engineer – Full Time",
+    startDate: "Aug-2020",
+    endDate: "Jun-2022",
+    logo: require("../../assets/images/logo-soliton.svg").default,
+    companyLogo:
+      "https://1414g3edy9az5.cdn.shift8web.com/wp-content/uploads/2023/01/Soliton-Logo.png",
+    description: {
+      general:
+        "Developed full-stack solutions that advanced semiconductor validation and boosted overall product quality.",
+      learningsOrAchievements: [
+        "Pioneered semiconductor validation software using React JS, Node JS, Python, MySQL, and Electron with a data-driven architecture and multi-scale sampling, leading to accelerated GUI development and multiple product-license acquisitions.",
+        "Mentored a machine learning project for anomaly detection in semiconductor data, reducing loss functions by up to 35% and enhancing software performance.",
+        "Implemented unit testing with Jest and React Testing Library, achieving 100% test coverage and a 30% improvement in application quality.",
+        "Tailored and led Scrum events for a cinema-robotics project, increasing story point completion by 30% and promoting Agile adoption across teams.",
+        "Created an industrial IoT edge module using Python FastAPI and Docker to facilitate data transfer via OPC UA and Azure, enabling remote monitoring for 40% of engineers.",
+        "Researched and developed an IoT proof of concept using NI sensor device drivers to extract high-volume data streams, bolstering confidence in winning industrial projects.",
+        "Initiated and led career preparedness training for college students under the Corporate Social Responsibility banner, including material development and stakeholder coordination.",
+        "Coordinated festive company events to foster cross-team connectivity and boost organizational morale.",
+      ],
+    },
   },
   {
     company: "Soliton Technologies",
     designation: "Project Engineer - Intern",
-    startDate: "January-2020",
-    endDate: "March-2020",
+    startDate: "Jan-2020",
+    endDate: "Mar-2020",
     logo: require("../../assets/images/logo-soliton.svg").default,
     companyLogo:
       "https://1414g3edy9az5.cdn.shift8web.com/wp-content/uploads/2023/01/Soliton-Logo.png",
     description: {
-      general: "Trained in LabVIEW and learnt about IT services/solutions provided by the organization, in the market.",
+      general:
+        "Gained foundational skills in LabVIEW and IT services, contributing to real-time application development.",
       learningsOrAchievements: [
-        "Trained in a new graphical programming language – LabVIEW, in the capacity of 40 hours per week for over 3 months, developed real-time applications like virtual-calculator, flight ticket booking system and ATM, exceeding the expectations, and secured full-time placement."
-      ]
-    }
+        "Trained in LabVIEW and developed real-time applications such as a virtual calculator, flight ticket booking system, and ATM, which exceeded expectations and secured a full-time role.",
+      ],
+    },
   },
   {
     company: "Zoho Corporation",
     designation: "Backend Developer - Intern",
     startDate: "May-2020",
-    endDate: "June-2020",
+    endDate: "Jun-2020",
     logo: require("../../assets/images/logo-zoho.svg").default,
     companyLogo:
       "https://1414g3edy9az5.cdn.shift8web.com/wp-content/uploads/2023/01/Soliton-Logo.png",
     description: {
-      general: "Learned and developed core and advanced Java backend modules for the Zoho Assist application – which aids in remote desktop service at the capacity of 40 hours per week for over a month, resulting in teaching me about the lifecycle of the app development, being agile to changes in the market requirements and customer needs.",
+      general:
+        "Contributed to backend development for Zoho Assist, quickly adapting to new technologies and agile workflows.",
       learningsOrAchievements: [
-        "Got appreciated for learning to code in a new programming language and understanding deeper concepts in a short span of time.",
-      ]
+        "Earned recognition for rapid learning and impactful contributions while developing core Java backend modules.",
+      ],
     },
   },
 ];
 
 export const WorkCompanyData = {
+  Freelance: {
+    fullName: "Freelance",
+    location: { city: "", country: "" },
+    about:
+      "Independent contractor specializing in React development and modern, scalable web applications.",
+    website: "",
+    logo: require("../../assets/images/logo-freelance.svg").default,
+  },
+  "SOTI Inc.": {
+    fullName: "SOTI Inc.",
+    location: { city: "Mississauga", country: "Canada" },
+    about:
+      "SOTI Inc. is a leading provider of enterprise mobility management and IoT solutions.",
+    website: "https://www.soti.net/",
+    logo: require("../../assets/images/logo-soti.svg").default,
+  },
   "Soliton Technologies": {
     fullName: "Soliton Technologies Private Limited",
-    location: { city: "Coimbatore", country: "India" },
+    location: { city: "Bangalore", country: "India" },
     about:
-      "Soliton works with global companies, from startups to Fortune 500, across industries including Semiconductor, Medical Devices, Automotive, and Robotics to help them increase their competitiveness and release great products through Digital Transformation Services (Partnered with NI - National Instruments).",
+      "Soliton partners with global companies to drive digital transformation through innovative IT solutions across industries.",
     website: "https://www.solitontech.com/",
     logo: require("../../assets/images/logo-soliton.svg").default,
   },
@@ -89,7 +144,7 @@ export const WorkCompanyData = {
     fullName: "Zoho Corporation",
     location: { city: "Chennai", country: "India" },
     about:
-      "Zoho Corporation is an Indian multinational technology company that makes web-based business tools.",
+      "An Indian multinational technology company offering a comprehensive suite of web-based business tools.",
     website: "https://www.zoho.com/",
     logo: require("../../assets/images/logo-zoho.svg").default,
   },
